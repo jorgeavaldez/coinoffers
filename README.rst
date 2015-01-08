@@ -34,6 +34,10 @@ To run the web app on your own server, do the following:
       python coinoffers.py >latest-orderbooks.json
 
 * serve the project root directory with your favorite web server
+  * Note: A simple node server has been included to allow for a quick preview of
+    the static site. To run it, ensure that you have Node installed, as well as
+    the 'connnect' and 'serve-static' packages installed, then just run it with
+    the command `node server.js`
 
 .. _`ZIP file`: https://github.com/akaihola/coinoffers/archive/master.zip
 .. _`install CoffeeScript`: http://coffeescript.org/#installation
